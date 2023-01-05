@@ -27,7 +27,7 @@ function App() {
           />
          </div>
          <div>
-          <p>Min</p>
+          <p>Max</p>
           <input type="number" 
           value={maxVal}
           onChange={e=>setMaxVal(+e.target.value)}
